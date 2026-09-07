@@ -1,0 +1,13 @@
+# Build output & caches
+dist/
+.astro/
+node_modules/
+
+# Omit lockfile in template so child projects resolve freshest packages
+package-lock.json
+
+# Environment & OS
+.env
+.env.*
+!.env.example
+.DS_Store
