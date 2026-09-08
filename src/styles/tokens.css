@@ -1,12 +1,4 @@
-/* ══ FEWD:FONTS:START ══ */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/fonts/Inter.woff2') format('woff2');
-}
-/* ══ FEWD:FONTS:END ══ */
+/* ══ FONTS: Self-hosted via Fontsource in src/layouts/BaseLayout.astro ══ */
 /* ══ USER:FONTS:START ══ */
 /* ══ USER:FONTS:END ══ */
 
@@ -257,9 +249,9 @@ section {
 /* fewd-config: desktopBase=1.125 mobileBase=1 desktopRatio=1.25 mobileRatio=1.2 bpMin=375 bpMax=1280 cqMin=320 cqMax=1200 */
 :root {
   /* ── Font Families ── */
-  --font-body:     'Inter', system-ui, sans-serif;
-  --font-display:  'Inter', system-ui, sans-serif;
-  --font-mono:     ui-monospace, monospace;
+  --font-body:     'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display:  'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:     'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, monospace;
 
   /* ── Type Size Scale ── */
   --text-xxs:    0.72rem;

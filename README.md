@@ -9,6 +9,10 @@ A minimalist, high-performance Astro starter template powered by **GenCSS / FEWD
 - **Fluid Mathematical Scalability**: Fully fluid typography (`--text-xxs` through `--text-xxxl`) and spacing curves (`--space-xs` through `--space-3xl`) calibrated with mathematical ratios and fluid `clamp()` formulas, plus container-query scaling helpers (`.cq-fluid`, `.cq-spacing`).
 - **Modern Minimalist Dark Theme & OKLCH Engine**: Sleek obsidian and carbon surfaces, high-contrast accents, and built-in transparency scales (10% to 90%) engineered with perceptually uniform `oklch` color primitives.
 - **Two-Layer Token Architecture**: Clear separation between Layer 1 design primitives (raw scales for color, type, space, radius, shadow) and Layer 2 semantic design tokens (contextual gaps, semantic theme roles, and component presets).
+- **Self-Hosted Variable Fonts (Fontsource)**:
+  - **Headings & Body**: Inter Variable (`@fontsource-variable/inter`)
+  - **Code & Technical Labels**: JetBrains Mono Variable (`@fontsource-variable/jetbrains-mono`)
+  - Zero third-party network requests, zero layout shift, and instant local font delivery.
 - **Strict BEM Methodology**: Scoped, maintainable component classes (`.c-block__element--modifier`) and layout wrappers (`.l-container`, `.l-section`). Zero utility frameworks, zero class soup.
 - **100% CSS Logical Properties**: Flow-relative properties (`padding-block`, `margin-inline`, `inline-size`, `max-inline-size`, `inset-block-start`) authored across all styles for resilient internationalization and modern layout structure.
 - **Zero Runtime CSS Overhead**: Plain, standards-compliant CSS bundled at build time with Astro, requiring zero JavaScript runtime or runtime CSS-in-JS dependencies.
